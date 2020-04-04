@@ -4,6 +4,7 @@ Inspired by Prusa and 3DVerkstan, the AutoShield is designed to print faster and
 Maybe we're biased, but we also think it's the prettiest.
 
 See it in action: https://youtu.be/gVObd0i1pr8
+
 Find it at Prusa: https://www.prusaprinters.org/prints/28435-autoshield-automatic-bed-removal-face-shield
 
 The band is designed for the Prusa MK3S printers and PrusaSlicer's draft profile, vase mode, with 0.8mm external perimeters. We're using 0.4mm nozzles, but 0.6 or 0.8mm would work great as well with the appropriate gcode changes.
@@ -16,4 +17,4 @@ For continuous printing, we duplicated the gcode for one part and manually adjus
 
 To reduce print time further, we added instructions to change the print speed multiplier to 150% when vase mode starts and to start reducing the bed temperature at 12mm z-height.
 
-
+The current gcode has 16 prints for around an 8-hour print time.
